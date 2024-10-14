@@ -1,0 +1,61 @@
+/* SearchBar.css */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    /*margin-bottom: 20px;*/
+    position: relative;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/v4yvtKpquRmC7fu9TqWjif-1280-80.jpg.webp');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    /*border-radius: 15px;*/
+    backdrop-filter: blur(10px);
+}
+
+.search-bar form {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.search-bar input {
+    width: 250px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    background-color: transparent;
+    color: #333;
+}
+
+.search-bar input::placeholder {
+    color: #999;
+}
+
+.search-bar button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+.search-bar button:active {
+    background-color: #3e8e41;
+}
